@@ -2,7 +2,8 @@
 - Modified version of IPSca in order to avoid compatibilty and conectivity issues.
 
 # Note
-- Made with <3 by vladiroPatron.
+- Much love to cam-stalk, the original developer of this tool.
+- Various changes made with <3 by vladiroPatron.
 
 # Regarding IPSca
 
