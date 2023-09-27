@@ -4,6 +4,8 @@
 # Note
 - Made with <3 by vladiroPatron.
 
+# Regarding IPSca
+
 - Universal scanner for web interfaces of IoT devices
 - Brute force function is embedded
 - Graphic interface
