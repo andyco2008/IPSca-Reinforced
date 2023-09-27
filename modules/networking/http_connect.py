@@ -1,7 +1,7 @@
 import base64
 import socket
 
-from idna import unicode
+# from idna import unicode
 from requests.auth import HTTPDigestAuth
 from requests import get
 import config
