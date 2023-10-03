@@ -11,6 +11,10 @@
 - Brute force function is embedded
 - Graphic interface
 
+# Usage
+
+- run main.py
+
 ![IPSCA](dict/example.png)
 
 ## Requirements
