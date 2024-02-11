@@ -27,5 +27,10 @@
 - Export to: json, csv, html (ipcam screenshots)
 - Capturing shapshots from: iCatch, Hipcam, Hikvision (App-Webs/), GoAhead, Foscam, Netwave, Tenvis, D-Link
 
+## Crashing Fixes
+- If your client crashes while exporting the ips, in the main folder make a folder called results and in that folder make another one called Export. This should fix it.
+- If your client crashes randomly while brutef. or scanning ips, run the file with sudo (Eg: sudo python3 main.py) and make sure that all ips have ports after them and that there are no blank rows.
+
+
 ## Disclaimer
 - For educational use only
