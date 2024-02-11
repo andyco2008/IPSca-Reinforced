@@ -24,7 +24,6 @@
 
 ## Features
 - Masscan is embedded (root required)
-- How to get hosts? New tool for Scanning and Bruteforcing IoT Devices soon.
 - Export to: json, csv, html (ipcam screenshots)
 - Capturing shapshots from: iCatch, Hipcam, Hikvision (App-Webs/), GoAhead, Foscam, Netwave, Tenvis, D-Link
 
