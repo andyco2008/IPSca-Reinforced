@@ -13,7 +13,7 @@
 
 # Usage
 
-- run main.py
+- python3 main.py
 
 ![IPSCA](dict/example.png)
 
