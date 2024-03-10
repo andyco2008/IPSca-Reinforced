@@ -1,36 +1,42 @@
-# IPSca-Reinforced. Forked from cam-stalk, by vladiroPatron
-- Modified version of IPSca in order to avoid compatibilty and conectivity issues.
+# IPSca-Reinforced
 
-# Note
-- Much love to cam-stalk, the original developer of this tool.
-- Various changes made with <3 by vladiroPatron.
+**Forked from cam-stalk, by vladiroPatron**
 
-# Regarding IPSca
+A modified version of IPSca designed to mitigate compatibility and connectivity issues.
 
-- Universal scanner for web interfaces of IoT devices
-- Brute force function is embedded
-- Graphic interface
+## Note
 
-# Usage
+- Much appreciation to cam-stalk, the original developer of this tool.
+- Various enhancements made with care by vladiroPatron.
+- Tested on MacOS and Linux; Windows compatibility not tested but should work with proper package installation.
+- For support, contact me on Discord: @vladirocox
 
-- python3 main.py
+## About IPSca
 
-![IPSCA](dict/example.png)
+- Universal bruteforcer for web interfaces of IoT devices, like Routers, IP-Cameras, etc.
+- Embedded brute force function.
+- User-friendly graphic interface.
+
+## Usage
+
+- `python3 main.py` (or sudo python3 main.py, if you are experiencing crashes / - depending on your system)
 
 ## Requirements
-- Python >= 3.6 - install
+
+- `Python >= 3.6` - Installation Guide
 - Python modules: `pip3 install -r requirements.txt`
-- Installed masscan and added to $PATH variable
+- Masscan installed and added to $PATH variable (already embedded in the tool)
 
 ## Features
-- Masscan is embedded (root required)
-- Export to: json, csv, html (ipcam screenshots)
-- Capturing shapshots from: iCatch, Hipcam, Hikvision (App-Webs/), GoAhead, Foscam, Netwave, Tenvis, D-Link
+
+- Embedded Masscan (root required)
+- Export options: json, csv, html (ipcam screenshots)
+- Snapshot capturing from: iCatch, Hipcam, Hikvision (App-Webs/), GoAhead, Foscam, Netwave, Tenvis, D-Link
 
 ## Crashing Fixes
-- If your client crashes while exporting the ips, in the main folder make a folder called results and in that folder make another one called Export. This should fix it.
-- If your client crashes randomly while brutef. or scanning ips, run the file with sudo (Eg: sudo python3 main.py) and make sure that all ips have ports after them and that there are no blank rows.
 
+- If your client crashes randomly during brute forcing or IP scanning, run the file with sudo (e.g., sudo python3 main.py) and ensure all IPs have ports specified after them with no blank rows.
 
 ## Disclaimer
+
 - For educational use only
