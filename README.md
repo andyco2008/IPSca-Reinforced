@@ -3,6 +3,7 @@
 **Forked from cam-stalk, by vladiroPatron**
 
 A modified version of IPSca designed to mitigate compatibility and connectivity issues.
+![IPSCA](dict/example.png)
 
 ## Note
 
@@ -37,7 +38,7 @@ A modified version of IPSca designed to mitigate compatibility and connectivity 
 
 ## Crashing Fixes
 
-# If your client crashes randomly during brute forcing or IP scanning, verify the following:
+### If your client crashes randomly during brute forcing or IP scanning, verify the following:
 
 - There are no blank rows in the desired IP-Adress list, and also no IP-Adresses that aren't followed by their ports.
 - If you are still experiencing crashes, try running the tool as root:
