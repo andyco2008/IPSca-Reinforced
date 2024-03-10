@@ -9,8 +9,8 @@ A modified version of IPSca designed to mitigate compatibility and connectivity 
 
 - Much appreciation to cam-stalk, the original developer of this tool.
 - Various enhancements made with care by vladiroPatron.
-- Tested on MacOS and Linux; Windows compatibility not tested but should work with proper package installation.
-- For support, contact me on Discord: @vladirocox
+- Tested on `MacOS` and `Linux`. `Windows` compatibility not tested but should work with proper package installation.
+- For support, contact me on Discord: `@vladirocox`
 
 ## About IPSca
 
@@ -21,7 +21,7 @@ A modified version of IPSca designed to mitigate compatibility and connectivity 
 ## Usage
 
 - `python3 main.py`
-- Or, if you are experiencing crashes, run it as root:
+- Or, if you are experiencing crashes, run it as `root`:
 - `sudo python3 main.py`
 
 ## Requirements
@@ -33,7 +33,7 @@ A modified version of IPSca designed to mitigate compatibility and connectivity 
 ## Features
 
 - Embedded Masscan (root required)
-- Export options: json, csv, html (ipcam screenshots)
+- Export options: `json`, `csv`, `html` (ipcam screenshots)
 - Snapshot capturing from: `iCatch`, `Hipcam`, `Hikvision (App-Webs/)`, `GoAhead`, `Foscam`, `Netwave`, `Tenvis`, `D-Link`
 
 ## Crashing Fixes
