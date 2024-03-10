@@ -19,23 +19,29 @@ A modified version of IPSca designed to mitigate compatibility and connectivity 
 
 ## Usage
 
-- `python3 main.py` (or sudo python3 main.py, if you are experiencing crashes / - depending on your system)
+- `python3 main.py`
+- Or, if you are experiencing crashes, run it as root:
+- `sudo python3 main.py`
 
 ## Requirements
 
 - `Python >= 3.6` - Installation Guide
 - Python modules: `pip3 install -r requirements.txt`
-- Masscan installed and added to $PATH variable (already embedded in the tool)
+- Masscan installed and added to `$PATH` variable (already embedded in the tool)
 
 ## Features
 
 - Embedded Masscan (root required)
 - Export options: json, csv, html (ipcam screenshots)
-- Snapshot capturing from: iCatch, Hipcam, Hikvision (App-Webs/), GoAhead, Foscam, Netwave, Tenvis, D-Link
+- Snapshot capturing from: `iCatch`, `Hipcam`, `Hikvision (App-Webs/)`, `GoAhead`, `Foscam`, `Netwave`, `Tenvis`, `D-Link`
 
 ## Crashing Fixes
 
-- If your client crashes randomly during brute forcing or IP scanning, run the file with sudo (e.g., sudo python3 main.py) and ensure all IPs have ports specified after them with no blank rows.
+# If your client crashes randomly during brute forcing or IP scanning, verify the following:
+
+- There are no blank rows in the desired IP-Adress list, and also no IP-Adresses that aren't followed by their ports.
+- If you are still experiencing crashes, try running the tool as root:
+- `sudo python3 main.py`
 
 ## Disclaimer
 
